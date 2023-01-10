@@ -19,8 +19,6 @@ for line in contacts_list:
         for number_w, word in enumerate(fullname):
             line[number_w + 1] = fullname[number_w]
 
-check_line_number = 1
-
 # task 3
 for template_line_number, template_line in enumerate(contacts_list):
     verifiable_line_number = len(contacts_list) - 1
